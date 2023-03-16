@@ -4,7 +4,7 @@ import { toBigInt, toNumber } from 'ethers'
 async function index() {
   const provider = new Provider({
     sequencer: {
-      network: 'mainnet-alpha' //'mainnet-alpha' or 'goerli-alpha'
+      network: 'mainnet-alpha'
     }
   })
 
